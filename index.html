@@ -1,1 +1,78 @@
+<!DOCTYPE html>
+<html>
 
+    <head>
+        <meta charset="utf-8">
+        <meta name="description" content="Assignment Container">
+        <title>Assignment 2</title>
+        <link rel="icon" href="./resources/PotatOS.png" type="image/svg+xml">
+    </head>
+
+    <body>
+
+        <svg width="auto" height="300">
+
+            <rect width="100%" height="300" fill="#507d2a"/>
+            <polygon points="25 145, 125 145, 125 160, 25 160" fill="black"/>
+            <rect x="160" y="5" width="15" height="100" fill="black" stroke-width="15"/>
+            <rect x="160" y="195" width="15" height="100" fill="black" stroke-width="15"/>
+            <rect x="220" y="145" width="100" height="15" fill="black" stroke-width="15"/>
+            <circle cx="170" cy="150" r="100" stroke="black" fill="transparent" stroke-width="15"/>
+            <circle cx="170" cy="150" r="25" fill="black"/>
+            
+        </svg>
+
+        <nav class="menue">
+
+            <ul>
+
+                <li><a href="./index.html" target="self">index.html</a></li>
+                <li><a href="./views/two.html" target="self">two.html</a></li>
+                <li><a href="./views/three.html" target="self">three.html</a></li>
+
+            </ul>
+
+        </nav>
+
+        <h1>Assignment 2</h1>
+
+        <h2 class="js-question">How to Use JavaScript in a Webpage</h2>
+
+        <p class="js-quesiton">
+
+            <ol type="1">
+
+                <li>
+                    <h3>Linking an External Script</h3>
+                    To add an external script to your HTML file, simply Use
+                    the script tag as follows.
+                    <br><br>
+
+                    <code><</code><code>script scr="path/to/my/script.js"></code><code><</code><code>/script></code>
+                </li>
+                
+                <li>
+                    <h3>How to Write JavaScript within an HTML file</h3>
+                    To add JavaScript code directly into your HTML file, you can do so 
+                    by adding the code between <code><</code><code>script></code>
+                    tags without adding anything to the <code>src</code> value.<br><br>
+
+                    <code>
+
+                        <code><</code><code>script></code><br>
+                            <div style="margin-left: 20px">window.addEventListener("load", () => {</div>
+                              <div style="margin-left: 40px">console.log("This function is executed once the page is fully loaded");</div>
+                            <div style="margin-left: 20px">});</div>
+                        <code><</code><code>/script></code>
+     
+                    </code>
+
+                </li>
+
+            </ol>
+
+        </p>
+
+    </body>
+    
+</html>
